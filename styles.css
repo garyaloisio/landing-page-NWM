@@ -1,0 +1,97 @@
+.nav {
+  background: dimgrey;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 0%;
+}
+
+.homeImage {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  margin-top: 1.9%;
+}
+
+.pictureText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #4f4d53;
+  font-size: 250%;
+}
+.howItStarted {
+  position: relative;
+  left: 20%;
+  color: yellow;
+  font-size: 200%;
+  margin-top: 70px;
+}
+.howItStartedParagraph {
+  position: relative;
+  left: 20%;
+  right: 0%;
+  color: grey;
+  font-size: 100%;
+  margin-top: 10px;
+  white-space: pre-line;
+  margin-bottom: 5%;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+h4 {
+  list-style: none;
+  padding-left: 0;
+}
+footer {
+  background-color: dimgrey;
+  color: white;
+  line-height: 1.5;
+}
+.title {
+  color: white;
+  font-size: 1.375rem;
+  padding-bottom: 0.625rem;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.container {
+  flex: 1;
+}
+
+.mainFooter {
+  padding: 1.25rem 1.875rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media only screen and (min-width: 29.8125rem) {
+  .mainFooter {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (min-width: 77.5rem) {
+  .mainFooter {
+    justify-content: space-evenly;
+  }
+  .mainFooterList {
+    padding: 1.25rem;
+    min-width: 12.5rem;
+  }
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
